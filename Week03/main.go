@@ -42,6 +42,6 @@ func main() {
 		close(done)
 	}
 	if err := g.Wait(); err != nil {
-		fmt.Println("something is wrong: %v", err)
+		fmt.Printf("something is wrong: %v", err)
 	}
 }
